@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Vite build output
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment variables
+.env
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Packages
+package-lock.json
+
+# Vite cache if needed (can speed up builds, but ignore for cleanliness)
+.vite/
+
+# Testing/coverage if needed
+coverage/
