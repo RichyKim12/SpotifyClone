@@ -1,4 +1,6 @@
-body {
+/* TODO: code doesn't work. Homepage is not acting right */
+
+/* body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   margin: 0;
@@ -6,7 +8,7 @@ body {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 100%;
   margin: 0 auto;
   background: white;
   padding: 2rem;
@@ -51,4 +53,4 @@ h1 {
 
 .primary-button:hover {
   background-color: #1aa34a;
-}
+} */
