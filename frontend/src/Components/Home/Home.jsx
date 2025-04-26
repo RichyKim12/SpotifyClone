@@ -1,30 +1,33 @@
 import React from "react";
+import Navbar from '../Navbar/Navbar';
+import Bottombar from '../BottomBar/Bottombar'
+import "./Home.css";
+
 
 const Home = () => {
   return (
-    <div className="container">
-      <h1>Welcome to the Homepage</h1>
-
-      <table className="simple-table">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Role</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Alice</td>
-            <td>Developer</td>
-          </tr>
-          <tr>
-            <td>Bob</td>
-            <td>Designer</td>
-          </tr>
-        </tbody>
-      </table>
+    <div className="main-wrapper">
+      <Navbar />
+      <div className="main-container">
+          <div className="general-side-container">
+            <div className="library-content-container">
+              {/* Main content */}
+            </div>
+          </div>
+          <div className = " middle-container">
+              <div className="middle-container-content"></div>
+          </div>       
+          <div className="general-side-container">
+            <div className="library-content-container">
+              {/* Main content */}
+            </div>
+          </div> 
+        
+      </div>
+      <Bottombar />
     </div>
   );
 };
+
 
 export default Home;
