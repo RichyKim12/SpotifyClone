@@ -1,54 +1,57 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 2rem;
-}
-
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  background: white;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  text-align: center;
-  color: #333;
-}
-
-.simple-table {
+html, body, #root {
+  height: 100%;
   width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
+  margin: 0;
+  padding: 0;
 }
 
-.simple-table th,
-.simple-table td {
-  border: 1px solid #ddd;
-  padding: 0.75rem;
-  text-align: left;
+body{
+  background-color: black;
 }
 
-.simple-table th {
-  background-color: #f0f0f0;
+/* Used to stack all elements in column fashion - RK */
+.main-wrapper { 
+  display: flex;
+  flex-direction: column; 
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
 }
 
-.primary-button {
-  display: block;
-  margin: 1.5rem auto 0;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  color: white;
-  background-color: #1db954;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+/* Holds all the middle content - RK */
+.main-container {
+  flex: 1;
+  display: flex; 
+  padding-bottom: 5px;
 }
 
-.primary-button:hover {
-  background-color: #1aa34a;
+.general-side-container {
+  height: 100%;
+  background-image: linear-gradient(180deg, #121212, #141414);
+  border-radius: 6px; 
+  margin: 3px;
+  width: 450px;
+  display: flex; 
+  flex-direction: column; 
 }
+
+
+.middle-container {
+  flex: 1;
+  height: 100%;
+  margin: 3px;
+  background-image: linear-gradient(0deg,#121212 80%,#141d1f 100%);
+  border-radius:7px;
+}
+
+
+.library-container-content {
+  flex: 1;  
+  overflow-y: auto;  
+}
+
+.library-container-content {
+  flex: 1;  
+  overflow-y: auto;  
+}
+

@@ -1,0 +1,8 @@
+.bottombar-container {
+    display: flex;
+    width: 100%;  /* Stretch full width */
+    height: 90px;
+    background-color: black;
+    position: relative;  /* No absolute or fixed positioning here */
+    align-items: center;  /* Center the navbar content */
+  }
