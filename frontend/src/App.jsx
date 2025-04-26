@@ -1,12 +1,14 @@
-import "./App.css";
-import Home from "./components/Home/Home.jsx";
+import { useState } from 'react'
+import { Routes, Route } from "react-router-dom";
+import Home from './Components/Home/Home';
+import './App.css'
 
 function App() {
   return (
-    <>
-      <Home />
-    </>
-  );
+    <Routes>
+      <Route path='/' element = {<Home/>}/>
+    </Routes>
+  )
 }
 
-export default App;
+export default App
