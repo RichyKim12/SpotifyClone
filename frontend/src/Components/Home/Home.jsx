@@ -9,17 +9,18 @@ const Home = () => {
     <div className="main-wrapper">
       <Navbar />
       <div className="main-container">
-          <div className="general-side-container">
+          <div className="library-side-container-normal">
             <div className="library-content-container">
-              {/* Main content */}
+              
             </div>
           </div>
+          <div className="library-side-container-small"></div>
           <div className = " middle-container">
               <div className="middle-container-content"></div>
           </div>       
-          <div className="general-side-container">
+          <div className="artist-info-side-container">
             <div className="library-content-container">
-              {/* Main content */}
+              
             </div>
           </div> 
         
