@@ -1,10 +1,17 @@
 import React from 'react'
+import { assets } from '../../assets/assets';
 import './Navbar.css'
 
 const Navbar = () => {
   return (
     <div className="navbar-container">
-      <h1>Navbar</h1>
+      <button className = 'spotify-button'>
+        <img className = 'spotify-icon' src={assets.spotify_icon}/>
+      </button>
+      <div className="middle-content">
+        <img/>
+        <div className="searchbar"></div>
+      </div>
     </div>
   );
 };

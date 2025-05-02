@@ -1,8 +1,30 @@
 .navbar-container {
     display: flex;
     width: 100%;  /* Stretch full width */
-    height: 65px;
+    height: 68px;
     background-color: black;
     position: relative;  /* No absolute or fixed positioning here */
     align-items: center;  /* Center the navbar content */
   }
+.spotify-button{
+  all:unset;
+  max-width: 65px;
+  max-height: 65px;
+  border-radius: 50%;
+  background: none;
+  padding-left: 15px;
+  margin: 0;
+}
+.spotify-button:focus{
+    outline: revert;
+}
+
+.spotify-icon{
+  max-width: 65px;
+  border-radius: 50%;
+  /* padding: 10px;s */
+}
+
+.spotify-icon:hover{
+  cursor: pointer;
+}
